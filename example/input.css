@@ -1,0 +1,27 @@
+.a {
+  border: 1px;
+  width: 200px;
+  height: 300px; /* vh */
+  font-size: 16px; /* no */
+  line-height: 30px; /* px */
+  color: black;
+  background-color: antiquewhite;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  padding: 15px 10px 20px 10px;
+}
+.b {
+  width: 100px;
+  height: 200px;
+  box-shadow: 10px 10px 5px #888888;
+  -webkit-box-shadow: 10px 10px 5px #888888;
+}
+@media screen and (min-width: 480px) {
+  .b {
+    width: 200px;
+    height: 300px;
+    box-shadow: 10px 10px 5px #888888;
+    -webkit-box-shadow: 10px 10px 5px #888888;
+  }
+}

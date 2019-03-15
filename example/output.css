@@ -1,0 +1,27 @@
+.a {
+  border: 1px;
+  width: 26.66667vmin;
+  height: 22.48876vh; /* vh */
+  font-size: 16px; /* no */
+  line-height: 30px; /* px */
+  color: black;
+  background-color: antiquewhite;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  padding: 2vmin 1.33333vmin 2.66667vmin 1.33333vmin;
+}
+.b {
+  width: 13.33333vmin;
+  height: 26.66667vmin;
+  box-shadow: 1.33333vmin 1.33333vmin 0.66667vmin #888888;
+  -webkit-box-shadow: 1.33333vmin 1.33333vmin 0.66667vmin #888888;
+}
+@media screen and (min-width: 480px) {
+  .b {
+    width: 26.66667vmin;
+    height: 40vmin;
+    box-shadow: 1.33333vmin 1.33333vmin 0.66667vmin #888888;
+    -webkit-box-shadow: 1.33333vmin 1.33333vmin 0.66667vmin #888888;
+  }
+}
