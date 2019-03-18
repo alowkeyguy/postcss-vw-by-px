@@ -54,7 +54,7 @@ commonly, we don't hope to convert some attributes, such as `font-size`, add thi
 ```
 
 ## Usage
-
+`npm i -D postcss-vw-by-px`
 ```js
 // postcss.config.js
 module.exports = {
