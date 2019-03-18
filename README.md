@@ -44,7 +44,7 @@ Default
 * minPxValue (Number) The bottom line of transformation.
 * viewportUnit (String) Expected units.
 * ignoreProperty (Array) The propertys to ignore and leave as px.
-  * example, you add border-radius, px2vw will leave -webkit-border-radius, -moz-border-radius, -o-border-radius as px
+  * example, you add border-radius, posscss-vw-by-px will leave -webkit-border-radius, -moz-border-radius, -o-border-radius as px
 
 commonly, we don't hope to convert some attributes, such as `font-size`, add this property to ignoreProperty, all of font-size property will be ignored. also, i think some property  should be converted to `vh`, you can do this: 
 ```css
